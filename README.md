@@ -16,6 +16,14 @@ Content
 In their existing market, the sales team has classified all customers into 4 segments (A, B, C, D ). Then, they performed segmented outreach and communication for different segment of customers. This strategy has work exceptionally well for them. They plan to use the same strategy on new markets and have identified 2627 new potential customers.   
 You are required to help the manager to predict the right group of the new customers.  
 
+## 데이터셋의 특징 (Characteristics of this dataset)
+1. Data Leakage가 존재하는 데이터
+2. Submission File의 정답 데이터가 모두 'A'로 되어있다.   
+  - Data Uploader가 임의로 정답을 채워넣은 것으로 예상된다.
+  - 원본 데이터셋 홈페이지에 들어가봤으나, 현재으로는 해당 데이터를 구할 수 없는 상태였다. (대회기간에만 공개)
+3. 결론 : 그렇게... 좋은 데이터셋은 아니였다. 그러나 항상 방심하면 안 된다는 것을 다시 깨닫게 해준 대회.  
+
+
 ## 학습 전략 (Training Strategy)
 * Sklearn을 이용한 Customer Segentation 
 * 여러가지 Encoding, Missing Value 처리를 조합하는 과정에서 Dataset의 특성 파악
